@@ -125,26 +125,6 @@ During this process, both the speed and efficiency advantages of AES and the sec
 
 <br>
 
-
----
-
----
-
-- Just a little reminder:
-    - To run the Kafka service, run the following commands in your terminal
-
-        - sudo systemctl start zookeeper
-        - sudo systemctl start kafka
-        - sudo systemctl status zookeeper
-        - sudo systemctl status kafka
-
-    - To stop the kafka services:
-        - sudo systemctl stop kafka
-        - sudo systemctl stop zookeeper
-
-<br>
-
----
 ---
         
 ### only_private_key/main.py
