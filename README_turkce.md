@@ -1,4 +1,4 @@
-# Mıdterm Case:
+# Midterm Case:
 - **Secure Communication Practice**
 
     - **Objective:** 
