@@ -125,27 +125,8 @@ Bu süreç boyunca, hem AES'in hız ve verimlilik avantajlarından hem de RSA'n�
 
 
 ---
-
----
-
-- Ufak bir hatırlatma:
-    - Kafka ve zookeeper servislerini çalıştırmak için terminalinize yazınız:
-
-        - sudo systemctl start zookeeper
-        - sudo systemctl start kafka
-        - sudo systemctl status zookeeper
-        - sudo systemctl status kafka
-
-    - Servisleri durdurmak için:
-        - sudo systemctl stop kafka
-        - sudo systemctl stop zookeeper
-
-<br>
-
----
----
         
-### only_private_key/main.py
+### only_rsa_private_key/main.py
 **Avantajlar:**
 
     1-Daha Basit Kod Yapısı: Kod yapısı, bir RSA anahtar çifti kullanarak şifreleme ve deşifreleme işlemleri için daha basit ve kolay anlaşılır hale getirilmiş.
@@ -172,7 +153,7 @@ Bu süreç boyunca, hem AES'in hız ve verimlilik avantajlarından hem de RSA'n�
 
 ---
 
-### w_server_private_key/main.py
+### w_aes_private_key/main.py
 **Avantajlar:**
 
     1-Hibrid Şifreleme: Hem RSA hem de AES şifrelemesinin birleşimi, güvenlik ve performans açısından avantaj sağlar.
