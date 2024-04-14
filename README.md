@@ -127,7 +127,7 @@ During this process, both the speed and efficiency advantages of AES and the sec
 
 ---
         
-### only_private_key/main.py
+### only_rsa_private_key/main.py
 **Advantages:**
 
     1-Simpler Code Structure: The code structure has been made simpler and easier to understand for encryption and decryption operations using an RSA key pair.
@@ -154,7 +154,7 @@ During this process, both the speed and efficiency advantages of AES and the sec
 
 ---
 
-### w_server_private_key/main.py
+### w_aes_private_key/main.py
 **Advantages:**
 
     1-Hybrid Encryption: The combination of both RSA and AES encryption provides advantages in terms of security and performance.
